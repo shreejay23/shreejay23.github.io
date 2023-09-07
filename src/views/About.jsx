@@ -1,7 +1,7 @@
 import React from "react";
-import { techStack } from "../constants";
+import { techStack } from "../resume_content/skills";
 import { motion } from "framer-motion";
-import { skillTypes } from "../constants";
+import { skillTypes } from "../resume_content/skills";
 
 const About = () => {
   return (

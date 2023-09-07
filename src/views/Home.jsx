@@ -1,5 +1,5 @@
 import React from "react";
-import { contactLinks } from "../constants";
+import { contactLinks } from "../resume_content/contactLinks";
 import { motion } from "framer-motion";
 import bgImg from "../assets/bg-img.png";
 
