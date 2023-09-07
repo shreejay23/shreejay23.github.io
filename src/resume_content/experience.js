@@ -30,7 +30,8 @@ export const experienceContents = [
     title: "Software Engineer Intern",
     startDate: "Aug 2021",
     endDate: "May 2022",
-    imgSrc: "https://media.licdn.com/dms/image/C4E0BAQHQ-9hQ9dkLAQ/company-logo_200_200/0/1625593445081?e=2147483647&v=beta&t=A8VlM7zLGJiVITd1_ZK0XSIVnhvqTSrB0Kv2ia1iv5Q",
+    imgSrc:
+      "https://media.licdn.com/dms/image/C4E0BAQHQ-9hQ9dkLAQ/company-logo_200_200/0/1625593445081?e=2147483647&v=beta&t=A8VlM7zLGJiVITd1_ZK0XSIVnhvqTSrB0Kv2ia1iv5Q",
     imgAlt: "IMATMI Logo",
     imgHeight: "52.35",
     imgWidth: "55",
