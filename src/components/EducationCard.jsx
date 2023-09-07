@@ -37,10 +37,10 @@ export const Card = (props) => {
         <div className="mb-3 font-normal text-gray-700 dark:text-gray-400">
           <ul>
             <li className="text-gray flex mb-2 justify-between">
-              <p className="mt-2 font-medium inline-block text-l tracking-tight text-gray-900 dark:text-white">
+              <p className="mt-1 font-medium inline-block text-l tracking-tight text-gray-900 dark:text-white">
                 {props.education.location}
               </p>
-              <p className="inline-block">
+              <p className="inline-block mt-1">
                 {props.education.startDate} - {props.education.endDate}
               </p>
             </li>

@@ -28,10 +28,10 @@ export const Card = (props) => {
           {props.experience.employerName}
         </h4>
         <div className="mb-3 flex justify-between">
-          <p className="mt-2 font-medium inline-block text-l tracking-tight text-gray-900 dark:text-white">
+          <p className="mt-1 font-medium inline-block text-l tracking-tight text-gray-900 dark:text-white">
             {props.experience.location}
           </p>
-          <p className="inline-block">
+          <p className="mt-1 inline-block">
             {props.experience.startDate} - {props.experience.endDate}
           </p>
         </div>
