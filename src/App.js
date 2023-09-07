@@ -8,23 +8,18 @@ import Experience from "./views/Experience";
 import Footer from "./components/Footer";
 
 function App() {
-  // const [loading, setLoading] = useState(true);
-  // useEffect(() => {
-  //   setTimeout(() => setLoading(false), 1000);
-  // }, []);
-
   return (
-      <>
-        <div>
-          <Navbar />
-          <Home />
-          <About />
-          <Educations />
-          <Experience />
-          <Projects />
-          <Footer />
-        </div>
-      </>
+    <>
+      <div>
+        <Navbar />
+        <Home />
+        <About />
+        <Educations />
+        <Experience />
+        <Projects />
+        <Footer />
+      </div>
+    </>
   );
 }
 
