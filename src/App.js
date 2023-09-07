@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+// import { useState, useEffect } from "react";
 import Navbar from "./components/Navbar";
 import Home from "./views/Home";
 import About from "./views/About";
@@ -9,10 +9,10 @@ import Experience from "./views/Experience";
 import Footer from "./components/Footer";
 
 function App() {
-  const [loading, setLoading] = useState(true);
-  useEffect(() => {
-    setTimeout(() => setLoading(false), 1000);
-  }, []);
+  // const [loading, setLoading] = useState(true);
+  // useEffect(() => {
+  //   setTimeout(() => setLoading(false), 1000);
+  // }, []);
 
   return (
     <ThemeProvider>

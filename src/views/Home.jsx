@@ -31,7 +31,9 @@ const Home = () => {
             <div className="flex md:justify-start ">
               {contactLinks.map((contactLink, index) => (
                 <a
+                  key={index}
                   href={contactLink.link}
+                  title={"My " + contactLink.name}
                   className="mr-5 cursor-pointer mt-8 hover:scale-125"
                 >
                   <img alt="" src={contactLink.url} width="40" height="40" />
@@ -62,9 +64,6 @@ const Home = () => {
             src={
               "https://www.bdigital.co.nz/wp-content/uploads/2019/07/Graphic-workstation.gif"
             }
-            // src={
-            //   "https://i.pinimg.com/originals/9c/fb/09/9cfb09f0c029e1f8c938208a7e278d76.gif"
-            // }
             alt=""
             className="md:w-3/6 hidden sm:block"
           />

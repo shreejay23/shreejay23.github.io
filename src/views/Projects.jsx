@@ -10,8 +10,8 @@ const Projects = () => {
           Projects
         </h2>
         <div className="mt-8 flex justify-between items-stretch flex-wrap">
-          {projectContents.map((projectContet,index) => (
-            <Card project={projectContet} />
+          {projectContents.map((projectContet, index) => (
+            <Card key={index} project={projectContet} />
           ))}
         </div>
       </div>

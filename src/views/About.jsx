@@ -1,11 +1,9 @@
-import React, { useContext } from "react";
+import React from "react";
 import { techStack } from "../constants";
-import { ThemeContext } from "../themeProvider";
 import { motion } from "framer-motion";
 import { skillTypes } from "../constants";
 
 const About = () => {
-  const theme = useContext(ThemeContext);
   return (
     <div id="about" className={"bg-white"}>
       <div className="max-w-7xl mx-auto x-4 sm:px-6 lg:px-8 px-4 md:mt-0 pt-24 pb-12">
@@ -50,11 +48,15 @@ const About = () => {
 
           <ul>
             {skillTypes.map((skillType, index) => (
-              <li key={index} className="my-4 mx-4 font-medium text-lg text-justify text-black-100">
+              <li
+                key={index}
+                className="my-4 mx-4 font-medium text-lg text-justify text-black-100"
+              >
                 {skillType.name}
-                <motion.div className="flex flex-wrap my-4">
+                <motion.div key={index} className="flex flex-wrap my-4">
                   {techStack[skillType.key].map((skill, index) => (
                     <motion.div
+                      key={index}
                       initial="hidden"
                       whileInView={"visible"}
                       variants={{
@@ -67,15 +69,20 @@ const About = () => {
                         },
                         hidden: { opacity: 1, y: 80 },
                       }}
-                      className="items-center mx-5 my-2"
+                      className="items-center mx-6 my-2"
                     >
-                      <img
-                        alt=""
-                        src={skill.link}
-                        height="48"
-                        width="48"
-                        className="w-12"
-                      />
+                      <figure className="relative">
+                        <img
+                          alt=""
+                          src={skill.link}
+                          height="48"
+                          width="48"
+                          className="w-12"
+                        />
+                        <figcaption className="text-center text-sm text-gray-500 mt-2">
+                          {skill.name}
+                        </figcaption>
+                      </figure>
                     </motion.div>
                   ))}
                 </motion.div>

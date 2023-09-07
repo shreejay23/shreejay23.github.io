@@ -26,10 +26,6 @@ const Navbar = () => {
       name: "Projects",
       route: "projects",
     },
-    // {
-    //   name: "Contact Me",
-    //   route: "contact",
-    // },
   ];
 
   return (
@@ -56,19 +52,22 @@ const Navbar = () => {
                 "flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-md md:font-medium"
               }
             >
-              {links.map((link,index) => (
-                <Link
-                  to={link.route}
-                  activeClass={"text-white bg-blue-500"}
-                  className={
-                    "hover:bg-blue-500 text-black block px-3 py-2 rounded-md text-base font-medium mt-1 hover:text-white cursor-pointer"
-                  }
-                  spy={true}
-                  smooth={true}
-                  onClick={() => setToggle(false)}
-                >
-                  <li key={index}>{link.name}</li>
-                </Link>
+              {links.map((link, index) => (
+                <li key={index}>
+                  <Link
+                    key={index}
+                    to={link.route}
+                    activeClass={"text-white bg-blue-500"}
+                    className={
+                      "hover:bg-blue-500 text-black block px-3 py-2 rounded-md text-base font-medium mt-1 hover:text-white cursor-pointer"
+                    }
+                    spy={true}
+                    smooth={true}
+                    onClick={() => setToggle(false)}
+                  >
+                    {link.name}
+                  </Link>
+                </li>
               ))}
             </ul>
           </div>
@@ -96,8 +95,9 @@ const Navbar = () => {
           }
         >
           <ul className="md:hidden md:flex-row md:space-y-8 md:mt-0 md:text-md md:font-medium">
-            {links.map((link,index) => (
+            {links.map((link, index) => (
               <Link
+                key={index}
                 to={link.route}
                 activeClass={"text-white bg-blue-500"}
                 className={

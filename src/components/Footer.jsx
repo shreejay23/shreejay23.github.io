@@ -1,5 +1,5 @@
 import React from "react";
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
 
 const Footer = () => {
   return (
@@ -10,7 +10,13 @@ const Footer = () => {
         </span>
         <ul className="flex flex-wrap items-center mt-3 text-sm font-medium text-white sm:mt-0">
           <li className="mx-3">
-            <a href="https://www.instagram.com/shreejayj/" target="_blank" className="hover:underline">
+            <a
+              title="My Instagram"
+              href="https://www.instagram.com/shreejayj/"
+              target="_blank"
+              className="hover:underline"
+              rel="noreferrer"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-7 w-7 fill-white"
@@ -21,7 +27,13 @@ const Footer = () => {
             </a>
           </li>
           <li className="mx-3 mb-1">
-            <a href="https://www.linkedin.com/in/shreejay-jahagirdar/" target="_blank" className="hover:underline">
+            <a
+              title="My LinkedIn"
+              href="https://www.linkedin.com/in/shreejay-jahagirdar/"
+              target="_blank"
+              className="hover:underline"
+              rel="noreferrer"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-7 w-7 fill-white"
@@ -32,7 +44,11 @@ const Footer = () => {
             </a>
           </li>
           <li className="mx-3 mt-1">
-            <a href="mailto:shreejay.va@gmail.com" className="hover:underline">
+            <a
+              title="Mail Me"
+              href="mailto:shreejay.va@gmail.com"
+              className="hover:underline"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-7 w-7 fill-white"

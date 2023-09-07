@@ -18,7 +18,10 @@ export const techStack = {
       name: "Java",
       link: "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original-wordmark.svg",
     },
-    { name: "Python", link: "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original-wordmark.svg" },
+    {
+      name: "Python",
+      link: "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original-wordmark.svg",
+    },
     {
       name: "Javascript",
       link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
@@ -41,7 +44,10 @@ export const techStack = {
       name: "React",
       link: "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg",
     },
-    { name: "D3.js", link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/d3js/d3js-plain.svg" },
+    {
+      name: "D3.js",
+      link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/d3js/d3js-plain.svg",
+    },
     {
       name: "Redux",
       link: "https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg",
@@ -115,22 +121,3 @@ export const contactLinks = [
 ];
 
 // url is icon image and link is the respective app link
-
-export const serviceData = [
-  {
-    name: "Web Application Development",
-    desc: "",
-    img: "https://img.icons8.com/external-kiranshastry-lineal-color-kiranshastry/64/000000/external-web-development-coding-kiranshastry-lineal-color-kiranshastry.png",
-  },
-  {
-    name: "Mobile Application Development",
-    desc: "",
-    img: "https://img.icons8.com/external-justicon-lineal-color-justicon/64/000000/external-app-development-responsive-web-design-justicon-lineal-color-justicon.png",
-  },
-
-  {
-    name: "Backend Development",
-    desc: "",
-    img: "https://img.icons8.com/external-flaticons-flat-flat-icons/64/000000/external-backend-no-code-flaticons-flat-flat-icons.png",
-  },
-];

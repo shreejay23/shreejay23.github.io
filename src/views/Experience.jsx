@@ -1,5 +1,5 @@
 import React from "react";
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
 import { Card } from "../components/ExperienceCard";
 import { experienceContents } from "../resume_content/experience";
 
@@ -11,8 +11,8 @@ const Experience = () => {
           Experience
         </h2>
         <div className="mt-8 flex justify-between items-stretch flex-wrap">
-          {experienceContents.map((experienceContent) => (
-            <Card experience={experienceContent} />
+          {experienceContents.map((experienceContent, index) => (
+            <Card key={index} experience={experienceContent} />
           ))}
         </div>
       </div>
