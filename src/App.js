@@ -4,7 +4,6 @@ import Home from "./views/Home";
 import About from "./views/About";
 import Educations from "./views/Education";
 import Projects from "./views/Projects";
-import { ThemeProvider } from "./themeProvider";
 import Experience from "./views/Experience";
 import Footer from "./components/Footer";
 
@@ -15,7 +14,6 @@ function App() {
   // }, []);
 
   return (
-    <ThemeProvider>
       <>
         <div>
           <Navbar />
@@ -27,7 +25,6 @@ function App() {
           <Footer />
         </div>
       </>
-    </ThemeProvider>
   );
 }
 
