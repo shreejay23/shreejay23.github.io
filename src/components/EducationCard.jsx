@@ -10,7 +10,7 @@ export const Card = (props) => {
         visible: { opacity: 1 },
         hidden: { opacity: 0 },
       }}
-      className="max-w-xl bg-white rounded-lg dark:bg-gray-800 dark:my-8"
+      className="max-w-xl bg-white rounded-lg"
     >
       {/* <a href="hello">
         <img
@@ -27,17 +27,17 @@ export const Card = (props) => {
           className="inline mr-1"
           src={props.education.imgSrc}
         />
-        <h4 className="mb-2 inline-block font-bold text-xl tracking-tight text-gray-900 dark:text-white">
+        <h4 className="mb-2 inline-block font-bold text-xl tracking-tight text-gray-900">
           {props.education.universityName}
         </h4>
-        <h4 className="mt-2 mb-2 font-medium text-xl tracking-tight text-gray-900 dark:text-white">
+        <h4 className="mt-2 mb-2 font-medium text-xl tracking-tight text-gray-900">
           {props.education.degree}
         </h4>
 
-        <div className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+        <div className="mb-3 font-normal text-gray-700">
           <ul>
             <li className="text-gray flex mb-2 justify-between">
-              <p className="mt-1 font-medium inline-block text-l tracking-tight text-gray-900 dark:text-white">
+              <p className="mt-1 font-medium inline-block text-l tracking-tight text-gray-900">
                 {props.education.location}
               </p>
               <p className="inline-block mt-1">

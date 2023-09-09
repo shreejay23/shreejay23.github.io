@@ -10,7 +10,7 @@ export const Card = (props) => {
         visible: { opacity: 1 },
         hidden: { opacity: 0 },
       }}
-      className="max-w-xl bg-white rounded-lg dark:bg-gray-800 dark:my-8"
+      className="max-w-xl bg-white rounded-lg"
     >
       <div className="p-5">
         <img
@@ -20,22 +20,22 @@ export const Card = (props) => {
           className="inline mr-1"
           src={props.experience.imgSrc}
         />
-        <h4 className="mb-2 align-middle inline-block font-bold text-xl tracking-tight text-gray-900 dark:text-white">
+        <h4 className="mb-2 align-middle inline-block font-bold text-xl tracking-tight text-gray-900">
           {props.experience.title}
         </h4>
         <br />
-        <h4 className="mt-1 mb-2 w-auto inline-block font-medium text-xl tracking-tight text-gray-900 dark:text-white">
+        <h4 className="mt-1 mb-2 w-auto inline-block font-medium text-xl tracking-tight text-gray-900">
           {props.experience.employerName}
         </h4>
         <div className="mb-3 flex justify-between">
-          <p className="mt-1 font-medium inline-block text-l tracking-tight text-gray-900 dark:text-white">
+          <p className="mt-1 font-medium inline-block text-l tracking-tight text-gray-900">
             {props.experience.location}
           </p>
           <p className="inline-block">
             {props.experience.startDate} - {props.experience.endDate}
           </p>
         </div>
-        <div className="mb-3 font-normal text-gray-800 dark:text-gray-400">
+        <div className="mb-3 font-normal text-gray-800">
           <ul className="list-disc ml-4">
             {props.experience.jobDuties.map((jobDuty, index) => (
               <li key={index} className="text-justify text-black my-2">

@@ -10,7 +10,7 @@ export const Card = (props) => {
         visible: { opacity: 1 },
         hidden: { opacity: 0 },
       }}
-      className="max-w-xl bg-gray-100 rounded-lg border border-gray-200 shadow-lg dark:bg-gray-800 dark:border-gray-700 my-8 flex flex-col" // Add flex and flex-col classes here
+      className="max-w-xl bg-gray-100 rounded-lg border border-gray-200 shadow-lg my-8 flex flex-col" // Add flex and flex-col classes here
     >
       <div className="p-5 flex-grow">
         {" "}
@@ -18,7 +18,7 @@ export const Card = (props) => {
         <h5 className="mb-3 text-center rounded-lg text-2xl font-medium tracking-tight text-black">
           {props.project.title}
         </h5>
-        <div className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+        <div className="mb-3 font-normal text-gray-700">
           <ul className="ml-4 list-disc">
             {props.project.description.map((description, index) => (
               <li key={index} className="text-justify my-1">
