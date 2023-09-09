@@ -29,11 +29,14 @@ const About = () => {
               Education and Experience
             </h4>
             <p className={"mt-4 text-lg text-justify text-black-300"}>
-              My academic journey at Pune Institute of Computer Technology,
-              where I earned my Bachelor's degree in Computer Engineering, laid
-              a strong foundation for my technical skills. My coursework has
-              equipped me with a deep understanding of algorithms, programming,
-              data management, and various domains within computer science.
+              I am Currently pursuing my Masters at Stony Brook University in
+              Computer Science. My academic journey at Pune Institute of
+              Computer Technology, where I earned my Bachelor's degree in
+              Computer Engineering, laid a strong foundation for my technical
+              skills. My coursework has equipped me with a deep understanding of
+              algorithms, programming, data management, and various domains
+              within computer science.
+              <br />
               <br />
               As a Software Engineer Intern at Intellect Mind & Talent
               Management Innovations, I have gained valuable insights and skills
@@ -41,7 +44,7 @@ const About = () => {
               the opportunity to apply my knowledge in real-world scenarios
               which not only deepened my technical expertise but have also
               reinforced the importance of adaptability and scalability in
-              software development. They have prepared me to tackle real-world
+              software development. All this has prepared me to tackle real-world
               challenges and contribute effectively to innovative projects in
               the future.
             </p>
