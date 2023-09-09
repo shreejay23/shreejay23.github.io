@@ -31,7 +31,7 @@ export const Card = (props) => {
           <p className="mt-1 font-medium inline-block text-l tracking-tight text-gray-900 dark:text-white">
             {props.experience.location}
           </p>
-          <p className="mt-1 inline-block">
+          <p className="inline-block">
             {props.experience.startDate} - {props.experience.endDate}
           </p>
         </div>

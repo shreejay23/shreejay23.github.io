@@ -36,8 +36,14 @@ const About = () => {
               data management, and various domains within computer science.
               <br />
               As a Software Engineer Intern at Intellect Mind & Talent
-              Management Innovations, I had the opportunity to apply my
-              knowledge in real-world scenarios.
+              Management Innovations, I have gained valuable insights and skills
+              in the field of computer science and software development. I had
+              the opportunity to apply my knowledge in real-world scenarios
+              which not only deepened my technical expertise but have also
+              reinforced the importance of adaptability and scalability in
+              software development. They have prepared me to tackle real-world
+              challenges and contribute effectively to innovative projects in
+              the future.
             </p>
           </motion.div>
           <motion.div>
