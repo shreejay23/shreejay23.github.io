@@ -3,19 +3,19 @@ export const contactLinks = [
     name: "LinkedIn",
     url: "https://www.freepnglogos.com/uploads/linkedin-logo-transparent-picture-31.png",
     link: "https://www.linkedin.com/in/shreejay-jahagirdar/",
-    alt: "linkedin_logo_img",
+    alt: "LinkedIn Logo",
   },
   {
     name: "Github",
     url: "https://www.freepnglogos.com/uploads/512x512-logo-png/512x512-logo-github-icon-35.png",
     link: "https://github.com/shreejay23",
-    alt: "github_logo_img",
+    alt: "Github Logo",
   },
   {
     name: "Email",
     url: "https://www.freepnglogos.com/uploads/email-png/email-logo-communications-brands-and-logotypes-gmail-14.png",
     link: "mailto:shreejay.va@gmail.com",
-    alt: "email_logo_img",
+    alt: "Email Logo",
   },
   // {
   //   name: "Instagram",

@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="bg-gray-400 w-full bottom-0 shadow">
       <div className="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
         <span className="text-base text-white sm:text-center">
-          &copy; 2023 . All Rights Reserved.
+          &copy; 2023. All Rights Reserved.
         </span>
         <ul className="flex flex-wrap items-center mt-3 text-sm font-medium text-white sm:mt-0">
           <li className="mx-3">

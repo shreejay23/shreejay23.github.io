@@ -1,6 +1,6 @@
 export const educationsContent = [
   {
-    imgAlt: "SBU Logo",
+    imgAlt: "Stony Brook University Logo",
     imgHeight: "52.36",
     imgWidth: "55",
     imgSrc:
@@ -9,12 +9,13 @@ export const educationsContent = [
     degree: "Master of Science - MS, Computer Science",
     startDate: "Aug 2022",
     endDate: "Present",
+    cgpa: "3.5/4",
     relevantCoursework:
       "Analysis of Algorithms, Visualization, Big Data Systems, Natural Language Processing, Network Security, Computational Biology, Programming Abstractions",
     location: "New York, USA",
   },
   {
-    imgAlt: "PICT Logo",
+    imgAlt: "Pune Institute of Computer Technology(PICT) Logo",
     imgHeight: "49.7",
     imgWidth: "49.7",
     imgSrc:
@@ -23,6 +24,7 @@ export const educationsContent = [
     degree: "Bachelor of Engineering - BE, Computer Engineering",
     startDate: "Aug 2018",
     endDate: "June 2022",
+    cgpa: "9.76/10",
     relevantCoursework:
       "Data Structure and Algorithms, Object Oriented Programming, Database Management, Operating Systems, Computer Networks",
     location: "Pune, India",

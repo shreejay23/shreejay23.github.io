@@ -12,9 +12,6 @@ const About = () => {
         </h2>
         <div>
           <motion.div>
-            <h4 className="mt-12 text-2xl font-semibold text-blue-500">
-              A bit about me
-            </h4>
             <p className={"mt-4 text-lg text-justify text-black-300"}>
               I am a dedicated and passionate computer science enthusiast
               pursuing a Master of Science in Computer Science at Stony Brook
@@ -82,7 +79,7 @@ const About = () => {
                     >
                       <figure className="relative">
                         <img
-                          alt=""
+                          alt={skill.alt}
                           src={skill.link}
                           height="48"
                           width="48"

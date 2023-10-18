@@ -17,7 +17,7 @@ export const projectContents = [
     technologiesUsed: "D3.js, React.js, Python",
     description: [
       "A D3 and React-powered visualization dashboard for NYC’s Airbnb data analysis",
-      "Assists tenants in finding a suitable room according to their preferences and helps homeowners to adjust their pricing & provide necessary features",
+      "Assist tenants in finding a suitable room according to their preferences and helps homeowners to adjust their pricing & provide necessary features",
       "React-enabled project makes graphical elements like charts & plots interactive and reusable",
       "Optimized performance and user experience through efficient data fetching and rendering techniques",
     ],

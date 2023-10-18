@@ -14,11 +14,11 @@ const Home = () => {
           id="/"
         >
           <div className="sm:text-center lg:text-left">
-            <h3 className="text-3xl tracking-tight text-gray-900 sm:text-4xl md:text-5xl">
+            <h1 className="text-3xl tracking-tight text-gray-900 sm:text-4xl md:text-5xl">
               <motion.span className={"text-black"}>
                 Hi, I am Shreejay Jahagirdar
               </motion.span>
-            </h3>
+            </h1>
             <p
               className={
                 "mt-3 text-justify text-base text-black sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0"
@@ -31,12 +31,13 @@ const Home = () => {
             <div className="flex md:justify-start ">
               {contactLinks.map((contactLink, index) => (
                 <a
+                  target="_blank"
                   key={index}
                   href={contactLink.link}
                   title={"My " + contactLink.name}
-                  className="mr-5 cursor-pointer mt-8 hover:scale-125"
+                  className="mr-5 cursor-pointer mt-8 hover:scale-125" rel="noreferrer"
                 >
-                  <img alt="" src={contactLink.url} width="40" height="40" />
+                  <img alt={contactLink.alt} src={contactLink.url} width="40" height="40" />
                 </a>
               ))}
             </div>

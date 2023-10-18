@@ -8,72 +8,88 @@ export const techStack = {
   languages: [
     {
       name: "C++",
+      alt: "C++ Logo",
       link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-plain.svg",
     },
     {
       name: "C",
+      alt: "C Logo",
       link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-plain.svg",
     },
     {
       name: "Java",
+      alt:"Java Logo",
       link: "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original-wordmark.svg",
     },
     {
       name: "Python",
+      alt: "Python Logo",
       link: "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original-wordmark.svg",
     },
     {
-      name: "Javascript",
+      name: "JavaScript",
+      alt: "JavaScript Logo",
       link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
     },
     {
       name: "HTML",
+      alt: "HTML Logo",
       link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
     },
     {
       name: "CSS",
+      alt: "CSS Logo",
       link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg",
     },
   ],
   libraries_framework: [
     {
       name: "NodeJS",
+      alt: "NodeJS Logo",
       link: "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg",
     },
     {
       name: "React",
+      alt: "React Logo",
       link: "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg",
     },
     {
       name: "D3.js",
+      alt: "D3.js Logo",
       link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/d3js/d3js-plain.svg",
     },
     {
       name: "Redux",
+      alt: "Redux Logo",
       link: "https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg",
     },
     {
       name: "Express",
+      alt: "Express Logo",
       link: "https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg",
     },
     {
       name: "Bootstrap",
+      alt: "Bootstrap Logo",
       link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain.svg",
     },
   ],
   database: [
     {
-      name: "MySQl",
+      name: "MySQL",
+      alt: "MySQL Logo",
       link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-plain.svg",
     },
     {
       name: "Mongo DB",
+      alt: "MongoDB Logo",
       link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-plain.svg",
     },
   ],
   miscellaneous: [
     {
       name: "Git",
+      alt: "Git Logo",
       link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain.svg",
     },
   ],

@@ -44,6 +44,11 @@ export const Card = (props) => {
                 {props.education.startDate} - {props.education.endDate}
               </p>
             </li>
+            <li className="text-gray flex mb-2 justify-between">
+              <p className="mt-1 font-medium inline-block text-l tracking-tight text-gray-900">
+                {"Grade: " + props.education.cgpa}
+              </p>
+            </li>
             <li className="text-black mb-2 text-justify">
               <h4>
                 <b>{"Relevant Coursework: "}</b>
