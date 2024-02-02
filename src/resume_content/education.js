@@ -9,7 +9,7 @@ export const educationsContent = [
     degree: "Master of Science - MS, Computer Science",
     startDate: "Aug 2022",
     endDate: "Present",
-    cgpa: "3.5/4",
+    cgpa: "3.67/4",
     relevantCoursework:
       "Analysis of Algorithms, Visualization, Big Data Systems, Natural Language Processing, Network Security, Computational Biology, Programming Abstractions",
     location: "New York, USA",

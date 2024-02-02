@@ -44,9 +44,9 @@ export const techStack = {
   ],
   libraries_framework: [
     {
-      name: "NodeJS",
-      alt: "NodeJS Logo",
-      link: "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg",
+      name: "Express",
+      alt: "Express Logo",
+      link: "https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg",
     },
     {
       name: "React",
@@ -59,19 +59,24 @@ export const techStack = {
       link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/d3js/d3js-plain.svg",
     },
     {
-      name: "Redux",
-      alt: "Redux Logo",
-      link: "https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg",
-    },
-    {
-      name: "Express",
-      alt: "Express Logo",
-      link: "https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg",
-    },
-    {
       name: "Bootstrap",
       alt: "Bootstrap Logo",
       link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain.svg",
+    },
+    {
+      name: "Flask",
+      alt: "Flask Logo",
+      link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg",
+    },
+    {
+      name: "Django",
+      alt: "Django Logo",
+      link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg",
+    },
+    {
+      name: "Redux",
+      alt: "Redux Logo",
+      link: "https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg",
     },
   ],
   database: [
@@ -88,9 +93,19 @@ export const techStack = {
   ],
   miscellaneous: [
     {
+      name: "NodeJS",
+      alt: "NodeJS Logo",
+      link: "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg",
+    },
+    {
       name: "Git",
       alt: "Git Logo",
       link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain.svg",
+    },
+    {
+      name: "Linux",
+      alt: "Linux Logo",
+      link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg",
     },
   ],
   // { name: "TypeScript", link: "https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" },
