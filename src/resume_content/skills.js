@@ -83,7 +83,7 @@ export const techStack = {
     {
       name: "MySQL",
       alt: "MySQL Logo",
-      link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-plain.svg",
+      link: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg",
     },
     {
       name: "Mongo DB",

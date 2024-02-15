@@ -23,7 +23,7 @@ export const educationsContent = [
     universityName: "Pune Institute of Computer Technology",
     degree: "Bachelor of Engineering - BE, Computer Engineering",
     startDate: "Aug 2018",
-    endDate: "June 2022",
+    endDate: "Jun 2022",
     cgpa: "9.76/10",
     relevantCoursework:
       "Data Structure and Algorithms, Object Oriented Programming, Database Management, Operating Systems, Computer Networks",

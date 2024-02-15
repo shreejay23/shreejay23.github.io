@@ -31,6 +31,7 @@ export const Card = (props) => {
       <div className="ml-5 mb-2 mt-auto">
         {" "}
         {/* Add mt-auto to push the button to the bottom */}
+        {props.project.onGithub && (
         <a
           className=""
           href={props.project.githubLink}
@@ -55,6 +56,7 @@ export const Card = (props) => {
             </svg>
           </button>
         </a>
+        )}
         {props.project.onYouTube && (
           <a
             className=""
