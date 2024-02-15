@@ -41,6 +41,11 @@ export const techStack = {
       alt: "CSS Logo",
       link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg",
     },
+    {
+      name: "C#",
+      alt: "C# Logo",
+      link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-plain.svg",
+    },
   ],
   libraries_framework: [
     {

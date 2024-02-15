@@ -11,7 +11,7 @@ export const educationsContent = [
     endDate: "Present",
     cgpa: "3.67/4",
     relevantCoursework:
-      "Analysis of Algorithms, Visualization, Big Data Systems, Natural Language Processing, Network Security, Computational Biology, Programming Abstractions",
+      "Analysis of Algorithms, Visualization,  Big Data Algorithms & Networks, Natural Language Processing, Network Security, Computational Biology, Programming Abstractions",
     location: "New York, USA",
   },
   {
