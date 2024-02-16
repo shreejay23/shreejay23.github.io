@@ -12,9 +12,9 @@ export const techStack = {
       link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-plain.svg",
     },
     {
-      name: "C",
-      alt: "C Logo",
-      link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-plain.svg",
+      name: "Python",
+      alt: "Python Logo",
+      link: "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original-wordmark.svg",
     },
     {
       name: "Java",
@@ -22,9 +22,9 @@ export const techStack = {
       link: "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original-wordmark.svg",
     },
     {
-      name: "Python",
-      alt: "Python Logo",
-      link: "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original-wordmark.svg",
+      name: "C",
+      alt: "C Logo",
+      link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-plain.svg",
     },
     {
       name: "JavaScript",
