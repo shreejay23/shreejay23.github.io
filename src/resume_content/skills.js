@@ -1,7 +1,7 @@
 export const skillTypes = [
   { name: "Languages", key: "languages" },
   { name: "Libraries and Framework", key: "libraries_framework" },
-  { name: "Database", key: "database" },
+  { name: "Database and Cloud", key: "database_and_cloud" },
   { name: "Miscellaneous", key: "miscellaneous" },
 ];
 export const techStack = {
@@ -84,7 +84,7 @@ export const techStack = {
       link: "https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg",
     },
   ],
-  database: [
+  database_and_cloud: [
     {
       name: "MySQL",
       alt: "MySQL Logo",
@@ -94,6 +94,16 @@ export const techStack = {
       name: "Mongo DB",
       alt: "MongoDB Logo",
       link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-plain.svg",
+    },
+    {
+      name: "SQLite",
+      alt: "SQLite Logo",
+      link: "https://raw.githubusercontent.com/devicons/devicon/master/icons/sqlite/sqlite-original.svg",
+    },
+    {
+      name: "AWS",
+      alt: "AWS Logo",
+      link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg",
     },
   ],
   miscellaneous: [

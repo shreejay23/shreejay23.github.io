@@ -26,6 +26,18 @@ export const projectContents = [
     youtubeLink: "https://www.youtube.com/watch?v=_PD3pN8OCy8",
   },
   {
+    title: "PicNix: Image De-duplicating Architecture",
+    technologiesUsed: "Python, Django, SQLite, React.js",
+    description: [
+      "Constructed a system tailored for NFTs, prioritizing cost-effective storage by avoiding storing a new image that is the exact duplicate of an image present in the database and clustering similar images for enhanced user clarity.",
+      "Optimized the duplicate image detection by solely comparing incoming images with cluster centers and focusing on exact matches within the top 2 most similar clusters, resulting in the reduction of execution time by 60%.",
+    ],
+    githubLink: "https://github.com/shreejay23/picnix",
+    onGithub: true,
+    onYouTube: false,
+    youtubeLink: "",
+  },
+  {
     title: "Language Agnostic News Summarization (LANS)",
     technologiesUsed: "Python",
     description: [
