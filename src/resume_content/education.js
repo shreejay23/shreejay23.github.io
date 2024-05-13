@@ -8,11 +8,11 @@ export const educationsContent = [
     universityName: "Stony Brook University",
     degree: "Master of Science - MS, Computer Science",
     startDate: "Aug 2022",
-    endDate: "Present",
-    cgpa: "3.67/4",
+    endDate: "May 2024",
+    cgpa: "3.7/4",
     relevantCoursework:
       "Analysis of Algorithms, Visualization,  Big Data Algorithms & Networks, Natural Language Processing, Network Security, Computational Biology, Programming Abstractions",
-    location: "New York, USA",
+    location: "New York, United States",
   },
   {
     imgAlt: "Pune Institute of Computer Technology(PICT) Logo",

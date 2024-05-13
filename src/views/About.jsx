@@ -26,7 +26,7 @@ const About = () => {
               Education and Experience
             </h4>
             <p className={"mt-4 text-lg text-justify text-black-300"}>
-              I am Currently pursuing my Masters at Stony Brook University in
+              I am currently pursuing my Masters at Stony Brook University in
               Computer Science. My academic journey at Pune Institute of
               Computer Technology, where I earned my Bachelor's degree in
               Computer Engineering, laid a strong foundation for my technical
