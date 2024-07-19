@@ -6,9 +6,10 @@ import bgImg from "../assets/bg-img.png";
 const Home = () => {
   return (
     <>
-      <div
+      <div>
+      {/* <div
         style={{ backgroundImage: `url('${bgImg}')`, backgroundSize: "cover" }}
-      >
+      > */}
         <main
           className="mx-auto max-w-7xl px-4 sm:px-6 md:mt-0 lg:px-8 flex flex-col md:flex-row items-center justify-center md:justify-between h-screen"
           id="/"
@@ -24,9 +25,7 @@ const Home = () => {
                 "mt-3 text-justify text-base text-black sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0"
               }
             >
-              I am currently pursuing a Master's degree in Computer Science at
-              Stony Brook University and actively seeking full-time positions
-              beginning in May 2024.
+              I am an innovative Software Engineer with a Master’s in Computer Science from Stony Brook University and a Bachelor's degree from PICT. Currently, I am actively seeking Software Engineering roles where I can apply my expertise and drive impactful solutions.
             </p>
             <div className="flex md:justify-start ">
               {contactLinks.map((contactLink, index) => (

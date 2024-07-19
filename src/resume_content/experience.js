@@ -1,7 +1,7 @@
 export const experienceContents = [
   {
     employerName: "Stony Brook University",
-    title: "Web Developer Intern",
+    title: "Software Engineer Intern",
     startDate: "Sep 2023",
     endDate: "May 2024",
     imgSrc:
@@ -62,7 +62,7 @@ export const experienceContents = [
     imgWidth: "55",
     location: "Pune, India",
     jobDuties: [
-      "Designed and developed a full-stack application for assessing personality traits through an adaptive testing approach.",
+      "Designed and developed a full-stack application for assessing personality traits through an adaptive testing approach, leveraging Amazon EC2 for hosting and implementing a CI/CD pipeline for seamless deployment.",
       "Revamped the UI via REST APIs, incorporating back-end security for deceptive response detection and integrating additional features, like search and filtering test questions, which contributed to a 30% increase in user satisfaction.",
       "Evaluated diverse Machine Learning models to present the final test results and analysis, achieving an accuracy rate of approximately 85%.",
       "Leveraged Graph and Queue data structures to devise an algorithm for the efficient retrieval of the next question in the test from the database, resulting in a 50% reduction in latency.",

@@ -2,7 +2,7 @@ export const skillTypes = [
   { name: "Languages", key: "languages" },
   { name: "Libraries and Framework", key: "libraries_framework" },
   { name: "Database and Cloud", key: "database_and_cloud" },
-  { name: "Miscellaneous", key: "miscellaneous" },
+  { name: "Other", key: "other" },
 ];
 export const techStack = {
   languages: [
@@ -106,7 +106,7 @@ export const techStack = {
       link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg",
     },
   ],
-  miscellaneous: [
+  other: [
     {
       name: "NodeJS",
       alt: "NodeJS Logo",

@@ -57,9 +57,9 @@ const Navbar = () => {
                   <Link
                     key={index}
                     to={link.route}
-                    activeClass={"text-white bg-blue-500"}
+                    activeClass={"text-white bg-[#02cc99]"}
                     className={
-                      "hover:bg-blue-500 text-black block px-3 py-2 rounded-md text-base font-medium mt-1 hover:text-white cursor-pointer"
+                      "hover:bg-[#02cc99] text-black block px-3 py-2 rounded-md text-base font-medium mt-1 hover:text-white cursor-pointer"
                     }
                     spy={true}
                     smooth={true}
@@ -99,9 +99,9 @@ const Navbar = () => {
               <Link
                 key={index}
                 to={link.route}
-                activeClass={"text-white bg-blue-500"}
+                activeClass={"text-white bg-[#02cc99]"}
                 className={
-                  "hover:bg-blue-500 text-black block px-3 py-2 rounded-md text-base font-medium mt-1 hover:text-white cursor-pointer"
+                  "hover:bg-[#02cc99] text-black block px-3 py-2 rounded-md text-base font-medium mt-1 hover:text-white cursor-pointer"
                 }
                 spy={true}
                 smooth={true}

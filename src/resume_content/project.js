@@ -1,5 +1,18 @@
 export const projectContents = [
   {
+    title: "Bank Application",
+    technologiesUsed: "Java, Spring Boot, JUnit",
+    description: [
+      "Developed a Spring Boot banking application with event sourcing for efficient auditing of system and seamless rollback.",
+      "Created REST APIs and performed testing using JUnit to verify functionality and error handling of each endpoint.",
+      "Utilized locks to synchronize the access to a user account, ensuring data consistency across concurrent transactions",
+    ],
+    githubLink: "https://github.com/shreejay23/BankApplication",
+    onGithub: true,
+    onYouTube: false,
+    youtubeLink: "",
+  },
+  {
     title: "Sanitation of Malicious Pickle Files",
     technologiesUsed: "Python",
     description: [
@@ -38,6 +51,30 @@ export const projectContents = [
     youtubeLink: "",
   },
   {
+    title: "Key-Value Store",
+    technologiesUsed: "C++",
+    description: [
+      "Built a key-value store using C++ with TCP/IP socket communication for reliable client-server interactions.",
+      "Utilized C++ features like smart pointers and the STL containers for efficient memory management and data storage.",
+    ],
+    githubLink: "https://github.com/shreejay23/Key-Value-Store",
+    onGithub: true,
+    onYouTube: false,
+    youtubeLink: "",
+  },
+  {
+    title: "Minesweeper Game",
+    technologiesUsed: "C++",
+    description: [
+      "Designed and implemented the classic Minesweeper game using C++ with a focus on object-oriented programming principles to create a modular and maintainable codebase.",
+      "Employed efficient algorithms and data structures to optimize game performance, ensuring quick responsiveness and smooth gameplay experience.",
+    ],
+    githubLink: "https://github.com/shreejay23",
+    onGithub: false,
+    onYouTube: false,
+    youtubeLink: "",
+  },
+  {
     title: "Language Agnostic News Summarization (LANS)",
     technologiesUsed: "Python",
     description: [
@@ -47,7 +84,7 @@ export const projectContents = [
     ],
     githubLink:
       "https://github.com/shreejay23/Language-Agnostic-News-Summarizer",
-      onGithub: true,
+    onGithub: true,
     onYouTube: false,
     youtubeLink: "",
   },

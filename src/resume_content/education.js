@@ -24,7 +24,7 @@ export const educationsContent = [
     degree: "Bachelor of Engineering - BE, Computer Engineering",
     startDate: "Aug 2018",
     endDate: "Jun 2022",
-    cgpa: "9.76/10",
+    cgpa: "9.8/10",
     relevantCoursework:
       "Data Structure and Algorithms, Object Oriented Programming, Database Management, Operating Systems, Computer Networks",
     location: "Pune, India",

@@ -13,37 +13,17 @@ const About = () => {
         <div>
           <motion.div>
             <p className={"mt-4 text-lg text-justify text-black-300"}>
-              I am a dedicated and passionate computer science enthusiast
-              pursuing a Master of Science in Computer Science at Stony Brook
-              University. I am deeply passionate about harnessing technology to
-              drive innovation, and I eagerly look forward to contributing my
-              skills to projects that can shape the future of technology and
-              enhance the lives of individuals worldwide. With a keen interest
-              in Software Development and Data Analysis, I am excited about the
-              challenges and opportunities that lie ahead in my career.
+              I am a dedicated computer science professional with a Master of Science in Computer Science from Stony Brook University. Passionate about driving innovation through technology, I am eager to apply my skills in software development and data analysis to projects that can shape the future and improve lives globally. Currently, I am actively seeking Software Engineering opportunities to tackle new challenges and contribute to impactful solutions.
             </p>
             <h4 className="mt-12 text-2xl font-semibold text-blue-500">
               Education and Experience
             </h4>
             <p className={"mt-4 text-lg text-justify text-black-300"}>
-              I am currently pursuing my Masters at Stony Brook University in
-              Computer Science. My academic journey at Pune Institute of
-              Computer Technology, where I earned my Bachelor's degree in
-              Computer Engineering, laid a strong foundation for my technical
-              skills. My coursework has equipped me with a deep understanding of
-              algorithms, programming, data management, and various domains
-              within computer science.
-              <br />
-              <br />
-              As a Software Engineer Intern at Intellect Mind & Talent
-              Management Innovations, I have gained valuable insights and skills
-              in the field of computer science and software development. I had
-              the opportunity to apply my knowledge in real-world scenarios
-              which not only deepened my technical expertise but have also
-              reinforced the importance of adaptability and scalability in
-              software development. All this has prepared me to tackle real-world
-              challenges and contribute effectively to innovative projects in
-              the future.
+              I am a highly motivated and skilled Software Engineer with a strong academic foundation and extensive hands-on experience in both research and industry settings. I hold a Master of Science in Computer Science from Stony Brook University, with a commendable CGPA of 3.7/4, and a Bachelor of Engineering in Computer Engineering from Pune Institute of Computer Technology, where I graduated with an outstanding CGPA of 9.8/10. My technical expertise spans multiple programming languages, web development frameworks, DBMS, and cloud technologies, including C++, Python, Java, Node.js, React.js, AWS, SQL, and MongoDB.
+              <br /><br />
+              In my professional journey, I've undertaken impactful roles such as managing a seamless content migration for Stony Brook University's HR website, enhancing UI and UX, which led to a 45% improvement in the site's Silktide score. At IMATMI, I developed a full-stack application that increased user satisfaction by 30% and reduced latency by 50% through innovative algorithms and efficient data structures. As a Graduate Research Assistant, I extracted and analyzed over 5GB of CDC data using Python and Flask, providing valuable insights into opioid-related deaths in the US.
+              <br /><br />
+              Beyond internships, I have led and contributed to several significant projects, including creating a vulnerability detection system for pickle file deserialization, developing an interactive Airbnb analysis dashboard, and building an image de-duplicating architecture for NFTs. My role as a Graduate Teaching Assistant further showcased my leadership and communication skills, as I supervised exams and graded assignments for a large class. I am passionate about leveraging my diverse skill set to drive innovative solutions in technology and am actively seeking Software Engineering opportunities to contribute my expertise and continue growing in the field.
             </p>
           </motion.div>
           <motion.div>

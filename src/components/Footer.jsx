@@ -3,7 +3,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-400 w-full bottom-0 shadow">
+    <footer className="bg-black w-full bottom-0 shadow">
       <div className="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
         <span className="text-base text-white sm:text-center">
           &copy; 2023. All Rights Reserved.
