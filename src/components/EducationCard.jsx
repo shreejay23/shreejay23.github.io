@@ -49,7 +49,7 @@ export const Card = (props) => {
                 {"Grade: " + props.education.cgpa}
               </p>
             </li>
-            <li className="text-black mb-2 text-justify">
+            <li className="text-black mb-2">
               <h4>
                 <b>{"Relevant Coursework: "}</b>
                 {props.education.relevantCoursework}

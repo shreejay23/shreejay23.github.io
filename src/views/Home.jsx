@@ -22,10 +22,10 @@ const Home = () => {
             </h1>
             <p
               className={
-                "mt-3 text-justify text-base text-black sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0"
+                "mt-3 text-base text-black sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0"
               }
             >
-              I am an innovative Software Engineer with a Master’s in Computer Science from Stony Brook University and a Bachelor's degree from PICT. Currently, I am actively seeking Software Engineering roles where I can apply my expertise and drive impactful solutions.
+              I am a Software Engineer currently working at Amazon Web Services(AWS).
             </p>
             <div className="flex md:justify-start ">
               {contactLinks.map((contactLink, index) => (

@@ -21,7 +21,7 @@ export const Card = (props) => {
         <div className="mb-3 font-normal text-gray-700">
           <ul className="ml-4 list-disc">
             {props.project.description.map((description, index) => (
-              <li key={index} className="text-justify my-1">
+              <li key={index} className="my-1">
                 {description}
               </li>
             ))}

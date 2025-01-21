@@ -50,30 +50,30 @@ export const projectContents = [
     onYouTube: false,
     youtubeLink: "",
   },
-  {
-    title: "Key-Value Store",
-    technologiesUsed: "C++",
-    description: [
-      "Built a key-value store using C++ with TCP/IP socket communication for reliable client-server interactions.",
-      "Utilized C++ features like smart pointers and the STL containers for efficient memory management and data storage.",
-    ],
-    githubLink: "https://github.com/shreejay23/Key-Value-Store",
-    onGithub: true,
-    onYouTube: false,
-    youtubeLink: "",
-  },
-  {
-    title: "Minesweeper Game",
-    technologiesUsed: "C++",
-    description: [
-      "Designed and implemented the classic Minesweeper game using C++ with a focus on object-oriented programming principles to create a modular and maintainable codebase.",
-      "Employed efficient algorithms and data structures to optimize game performance, ensuring quick responsiveness and smooth gameplay experience.",
-    ],
-    githubLink: "https://github.com/shreejay23",
-    onGithub: false,
-    onYouTube: false,
-    youtubeLink: "",
-  },
+  // {
+  //   title: "Key-Value Store",
+  //   technologiesUsed: "C++",
+  //   description: [
+  //     "Built a key-value store using C++ with TCP/IP socket communication for reliable client-server interactions.",
+  //     "Utilized C++ features like smart pointers and the STL containers for efficient memory management and data storage.",
+  //   ],
+  //   githubLink: "https://github.com/shreejay23/Key-Value-Store",
+  //   onGithub: false,
+  //   onYouTube: false,
+  //   youtubeLink: "",
+  // },
+  // {
+  //   title: "Minesweeper Game",
+  //   technologiesUsed: "C++",
+  //   description: [
+  //     "Designed and implemented the classic Minesweeper game using C++ with a focus on object-oriented programming principles to create a modular and maintainable codebase.",
+  //     "Employed efficient algorithms and data structures to optimize game performance, ensuring quick responsiveness and smooth gameplay experience.",
+  //   ],
+  //   githubLink: "https://github.com/shreejay23",
+  //   onGithub: false,
+  //   onYouTube: false,
+  //   youtubeLink: "",
+  // },
   {
     title: "Language Agnostic News Summarization (LANS)",
     technologiesUsed: "Python",
@@ -88,16 +88,16 @@ export const projectContents = [
     onYouTube: false,
     youtubeLink: "",
   },
-  {
-    title: "Covid-19 Tweets Sentiment Analysis",
-    technologiesUsed: "Python",
-    description: [
-      "Led a team to create a program using ML and NLP methods for sentiment classification in Covid-19 tweets.",
-      "Designed a robust pipeline of data preprocessing and feature engineering, resulting in an 80% accuracy.",
-    ],
-    githubLink: "",
-    onGithub: false,
-    onYouTube: false,
-    youtubeLink: "",
-  },
+  // {
+  //   title: "Covid-19 Tweets Sentiment Analysis",
+  //   technologiesUsed: "Python",
+  //   description: [
+  //     "Led a team to create a program using ML and NLP methods for sentiment classification in Covid-19 tweets.",
+  //     "Designed a robust pipeline of data preprocessing and feature engineering, resulting in an 80% accuracy.",
+  //   ],
+  //   githubLink: "",
+  //   onGithub: false,
+  //   onYouTube: false,
+  //   youtubeLink: "",
+  // },
 ];
