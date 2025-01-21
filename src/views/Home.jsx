@@ -1,15 +1,11 @@
 import React from "react";
 import { contactLinks } from "../resume_content/contactLinks";
 import { motion } from "framer-motion";
-import bgImg from "../assets/bg-img.png";
 
 const Home = () => {
   return (
     <>
       <div>
-      {/* <div
-        style={{ backgroundImage: `url('${bgImg}')`, backgroundSize: "cover" }}
-      > */}
         <main
           className="mx-auto max-w-7xl px-4 sm:px-6 md:mt-0 lg:px-8 flex flex-col md:flex-row items-center justify-center md:justify-between h-screen"
           id="/"
@@ -62,7 +58,7 @@ const Home = () => {
               hidden: { opacity: 1, y: 80 },
             }}
             src={
-              "https://www.bdigital.co.nz/wp-content/uploads/2019/07/Graphic-workstation.gif"
+              "https://cdn.prod.website-files.com/659f77ad8e06050cc27ed531/65ef63f6bd30ab838939a4ae_Developer%20productivity%20tools%202024.webp"
             }
             alt=""
             className="md:w-3/6 hidden sm:block"
