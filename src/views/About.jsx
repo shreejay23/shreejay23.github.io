@@ -13,7 +13,7 @@ const About = () => {
         <div>
           <motion.div>
             <p className={"mt-4 text-lg text-black-300"}>
-            I am a dedicated computer science professional with a Master of Science in Computer Science from Stony Brook University. Passionate about driving innovation through technology, I currently contribute to impactful solutions as a Software Development Engineer at AWS. Leveraging my expertise in software development and data analysis, I am committed to delivering cutting-edge projects that shape the future and improve lives globally.            </p>
+            I am a dedicated computer science professional with a Master of Science in Computer Science from Stony Brook University. Passionate about driving innovation through technology, I currently contribute to impactful solutions as a Software Engineer at Google. Leveraging my expertise in software development and data analysis, I am committed to delivering cutting-edge projects that shape the future and improve lives globally.            </p>
             <h4 className="mt-12 text-2xl font-semibold text-blue-500">
               Education and Experience
             </h4>

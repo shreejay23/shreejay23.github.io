@@ -1,9 +1,27 @@
 export const experienceContents = [
   {
+    employerName: "Google",
+    title: "Software Engineer",
+    startDate: "Feb 2026",
+    endDate: "Present",
+    imgSrc:"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/500px-Google_%22G%22_logo.svg.png",
+    imgAlt: "Google Logo",
+    jobDuties: [
+      // "Managed a smooth content migration from a legacy website to a new platform, enhancing the user interface design by writing clean and efficient code to ensure accessibility for 20,000+ users. Conducted UX research to analyze user feedback, resolving web page issues that led to a 45% improvement in the Silktide website score, particularly in accessibility and SEO metrics. Additionally, automated the generation of performance reports for 30 web pages, streamlining the tracking and analysis of website performance.",
+      // "Collaborated on the development of a Python and React.js application to visualize and analyze trends in opioid-related deaths, examining the impact of laws and socioeconomic factors. Led a cross-functional team in API development, creating endpoints in Python that successfully merged datasets from different teams, aggregating over 500,000 records with robust data validation and error-handling mechanisms to ensure data integrity."
+      // "Managed a smooth content migration from the previous HR website to the new one, concurrently refining the front-end User Interface (UI), with the website accessible to over 20000 users.",
+      // "Conducted thorough accessibility and error checks, resolving the identified issues which led to a 45% increase in the website score which encompasses content, accessibility and Search Engine Optimization (SEO) metrics.",
+    ],
+    imgHeight: "50",
+    imgWidth: "50",
+    location: "Mountain View, United States",
+    skills: "",
+  },
+  {
     employerName: "Amazon Web Services",
     title: "Software Development Engineer",
     startDate: "Dec 2024",
-    endDate: "Present",
+    endDate: "Jan 2026",
     imgSrc:"https://download.logo.wine/logo/Amazon_Web_Services/Amazon_Web_Services-Logo.wine.png",
     imgAlt: "AWS Logo",
     jobDuties: [
